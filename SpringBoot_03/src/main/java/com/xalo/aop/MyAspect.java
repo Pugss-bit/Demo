@@ -21,6 +21,7 @@ public class MyAspect {
 	@Before(value = "exe()")
 	public void before() {
 		System.out.println("before");
+		System.out.println("be");
 	}
 
 	@Around(value = "exe()")
